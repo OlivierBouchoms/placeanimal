@@ -15,9 +15,6 @@ variables:
   # Function app name
   functionAppName: 'placeanimal'
 
-  # Agent VM image name
-  vmImageName: 'windows-2019'
-
   # Working Directory
   workingDirectory: '$(System.DefaultWorkingDirectory)/PlaceAnimal'
 
