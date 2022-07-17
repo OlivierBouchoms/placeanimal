@@ -6,6 +6,8 @@
 trigger:
 - master
 
+pool: Default
+
 variables:
   # Azure Resource Manager connection created during pipeline creation
   azureSubscription: '1dde5e6d-23e4-479c-b483-46aff2b9469c'
