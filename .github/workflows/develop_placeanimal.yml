@@ -35,6 +35,6 @@ jobs:
         id: fa
         with:
           app-name: 'placeanimal'
-          slot-name: 'test'
+          slot-name: 'placeanimal-test'
           package: '${{ env.AZURE_FUNCTIONAPP_PACKAGE_PATH }}/output'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_A0A283C31BEC466BA247D273E2B4B7B2 }}
